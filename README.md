@@ -6,6 +6,8 @@
 
 A writable stream that writes to the console
 
+Refactored out of [tape][5]
+
 ## Example
 
 ```js
@@ -37,3 +39,4 @@ stream.end("five")
   [2]: http://travis-ci.org/Raynos/console-stream
   [3]: http://ci.testling.com/Raynos/console-stream.png
   [4]: http://ci.testling.com/Raynos/console-stream
+  [5]: https://github.com/substack/tape/blob/028e858f85c6916a730dca183c00469ebb869729/lib/default_stream.js
