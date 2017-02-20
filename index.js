@@ -1,5 +1,4 @@
 var Stream = require("stream")
-var console = require("console")
 
 var NEW_LINE = "\n"
 
